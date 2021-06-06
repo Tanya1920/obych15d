@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.wrapper {
+    background: yellow;
+}
+span {
+    
+    display: inline-block;
+}
+.first {
+    background: red;
+	width: 50%;
+	height:3000px;
+}
+.second {
+    background: blue;
+	width: 50%;
+	position:absolute;
+left:50%;
+top:0px;
+height:3000px;
+	
+}
+body{
+margin:0px;
+}
+.third {
+ width: 500px; /* задаете свои размеры */
+    height: 500px;
+    background: green;
+/*	vertical-align: middle; */
+position: absolute;              
+   top: 10%; 
+   left: 25%;
+	border-radius: 50%;
+}
+#aside1 {  /* селектор блока, который будет оставаться на месте */
+  position: fixed;
+  z-index: 101;
+}
+.sticky {
+  position: sticky;
+  top: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <span class="first">
+            qwerty qwerty qwerty qwerty
+        </span><span class="second">
+		            qwerty qwerty qwerty qwerty
+					
+			    <div class="third">
+				
+				</div>
+        </span>
+     
+    </div>
+</body>
+</html>
+
+
+
+
