@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Practics</title>
+<style>
+html, body, body div, span, h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+background: none;
+}
+html,body {
+height:100%;}
+ .wrapper{
+display: flex;
+flex-direction: column;
+min-height: 100%;
+background: yellow;}
+
+header {
+height: 100px;
+background: #ddd;
+flex:none;
+}
+footer {
+height: 100px;
+background: #ddd;
+flex:none;
+}
+.main {
+flex:1 0 auto;}
+.grey {
+background: grey;
+height: 200px;
+margin: 0 auto;
+width:200px;
+float: left;
+}
+.white {
+background: white;
+height: 100px;
+margin: 0 auto;
+width:200px;
+margin-left: 200px;
+}
+.white:after{
+content:"";
+clear:left;}
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+<header></header>
+<div class="main">
+   <div class = "grey">
+   </div>
+   <div class = "white">
+   </div>
+
+</div>
+<footer></footer>
+</div>
+</body>
+</html>
